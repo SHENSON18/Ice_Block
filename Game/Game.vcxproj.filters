@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{654b17f4-5c32-4af8-9c06-44081aee35e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time">
+      <UniqueIdentifier>{00a7d9a7-621b-4cd1-ab70-b15a303a0e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time\include">
+      <UniqueIdentifier>{22fb9e59-7fdb-44a2-b3f4-aa36c607468e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math">
+      <UniqueIdentifier>{f7cd51a8-6ca7-472f-a6c3-31ce8fde6c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math\include">
+      <UniqueIdentifier>{20f26c44-6049-453c-9a4b-38e04c3a12c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File">
+      <UniqueIdentifier>{e3abff6f-2abf-4ce0-b8ef-784c3ec6379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File\include">
+      <UniqueIdentifier>{9aca96a8-c51f-4709-a910-aa551e8732cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul">
+      <UniqueIdentifier>{452fe1b8-c527-4569-8967-51e4f2139f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul\include">
+      <UniqueIdentifier>{0ad67470-fbca-4090-bba8-5213abfc2846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine">
+      <UniqueIdentifier>{4f7e59a4-f764-4fa4-92c4-04a1ff95f3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Content">
+      <UniqueIdentifier>{e313f4d7-b728-4979-aca5-10548c7b3425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles">
+      <UniqueIdentifier>{a0e76a85-c5f3-447d-b542-bc07234f14fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems">
+      <UniqueIdentifier>{28bf0c96-c4dc-479b-99e5-0f50aac62252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\Floor">
+      <UniqueIdentifier>{dc140ed9-ef3e-41d5-85a5-9e8f147d6504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\ResourceManager">
+      <UniqueIdentifier>{30046d31-2105-493e-9d74-5af2aa0a25ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\Axis">
+      <UniqueIdentifier>{df8f29e1-f3fd-4589-ae0b-3f22695102df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\GameLoop">
+      <UniqueIdentifier>{e07da79a-4d85-46d2-bf6b-4a316677e5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components">
+      <UniqueIdentifier>{c8369875-f143-49ff-bc79-f4a4c3e8c391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Alarms">
+      <UniqueIdentifier>{f36aae47-218b-4326-a3ed-7843c2b9cbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Collision">
+      <UniqueIdentifier>{b43e3bf3-26f0-4615-8258-edf710998062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Draw">
+      <UniqueIdentifier>{ca7a9b05-9969-47df-b4e1-8045a1a46807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\GameObject">
+      <UniqueIdentifier>{4bd62f24-65b6-4592-9b19-8df7f0d2a417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Input">
+      <UniqueIdentifier>{6e5d0d15-c25e-43a9-8146-7afcdd4f6140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Update">
+      <UniqueIdentifier>{80ccc974-75ab-4ae4-8fe2-cf9177d9262c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Terminator">
+      <UniqueIdentifier>{0dea3f98-c415-48f1-a9aa-336072a49fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Scene/Manager">
+      <UniqueIdentifier>{eaee7068-70f8-4977-8365-1c9bca984990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Tools">
+      <UniqueIdentifier>{9a7363f4-9514-49ca-be2b-563640ceb662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\TestGO">
+      <UniqueIdentifier>{999f36c7-ec1d-459a-b418-03c1631daab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\Camera">
+      <UniqueIdentifier>{73a855e5-b836-4a13-b1f2-f3c8ec8abf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\Scenes">
+      <UniqueIdentifier>{4ead16c7-c4c1-47e2-b220-0ae1adf32fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\TestGO2">
+      <UniqueIdentifier>{3c581e4b-8479-4449-add3-fbbfd577f9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\TestingPair2">
+      <UniqueIdentifier>{f1a957eb-ad9d-4940-a2f9-8adce487069a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\testobject">
+      <UniqueIdentifier>{e9ff1288-9e78-4719-ad51-eef4f603aaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{beb4ff54-cc10-44cf-abfe-af33a07331c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\AlarmTest">
+      <UniqueIdentifier>{cace9ba0-2595-452c-b2a3-e3e3b6303cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Collision\Collidables">
+      <UniqueIdentifier>{76fad21a-7546-4e9e-a145-84dfce2692c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Collision\ColliderVolumes">
+      <UniqueIdentifier>{30ab399e-a91c-4194-bae0-c68a5b96fc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\TankItems">
+      <UniqueIdentifier>{7747bf6e-2ca0-405e-b752-19bac2052d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\Terrain">
+      <UniqueIdentifier>{cae7541c-a957-482a-8c86-436a22cea49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Tools\Visualizer">
+      <UniqueIdentifier>{739fb31c-a40d-4ee2-ba76-2e02f552619b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ice_Block_Engine\Components\TimeAble">
+      <UniqueIdentifier>{dfc62bb3-2030-4d52-8b60-da04c4533a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\TestItems\TestingPair3">
+      <UniqueIdentifier>{69e2a29b-bfc9-4475-92df-554769aaa771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Azul\include\Azul.h">
+      <Filter>_Libs\_Azul\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Alarmable.h">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\AlarmManager.h">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\AlarmMarker.h">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Draw.h">
+      <Filter>Ice_Block_Engine\Components\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameObjects.h">
+      <Filter>Ice_Block_Engine\Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Inputable.h">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\InputableManager.h">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\KeyboardEnum.h">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\KeyState.h">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ResourceManager.h">
+      <Filter>Ice_Block_Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\SceneManager.h">
+      <Filter>Ice_Block_Engine\Scene/Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Scene.h">
+      <Filter>Ice_Block_Engine\Scene/Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\DrawManager.h">
+      <Filter>Ice_Block_Engine\Components\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Terminable.h">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TerminableManager.h">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Dumpster.h">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Updatable.h">
+      <Filter>Ice_Block_Engine\Components\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\UpdateManager.h">
+      <Filter>Ice_Block_Engine\Components\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\floor_plane.h">
+      <Filter>DemoFiles\TestItems\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\axis.h">
+      <Filter>DemoFiles\TestItems\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Game.h">
+      <Filter>Ice_Block_Engine\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\testGO.h">
+      <Filter>DemoFiles\TestItems\TestGO</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\UserCamera.h">
+      <Filter>DemoFiles\TestItems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\level1.h">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\level2.h">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\testGO2.h">
+      <Filter>DemoFiles\TestItems\TestGO2</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\TestingPair2.h">
+      <Filter>DemoFiles\TestItems\TestingPair2</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\testobject.h">
+      <Filter>DemoFiles\TestItems\testobject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TimeManager.h">
+      <Filter>Ice_Block_Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Doxygen_Document.h">
+      <Filter>Documentation</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\Alarmtest.h">
+      <Filter>DemoFiles\TestItems\AlarmTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Collidable.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollidableGroup.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollidableGroupBase.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollisionManager.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\BoundingSphereVolume.h">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ColliderAABB.h">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ColliderVolume.h">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollisionPairProcessor.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollisionProcessorBase.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\IceBlockMath.h">
+      <Filter>Ice_Block_Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\TankDemo.h">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\TankBase.h">
+      <Filter>DemoFiles\TestItems\TankItems</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\TankTurret.h">
+      <Filter>DemoFiles\TestItems\TankItems</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TerrainModel.h">
+      <Filter>Ice_Block_Engine\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Visualizer.h">
+      <Filter>Ice_Block_Engine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ColliderVolumeEnums.h">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CollisionSingleProcessor.h">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ColliderOBB.h">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Timeable.h">
+      <Filter>Ice_Block_Engine\Components\TimeAble</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\TestingPair3.h">
+      <Filter>DemoFiles\TestItems\TestingPair3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <Filter>_Libs\_Azul</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UserFiles\LoadAllResources.cpp">
+      <Filter>Ice_Block_Content</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Alarmable.cpp">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\AlarmManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\AlarmMarker.cpp">
+      <Filter>Ice_Block_Engine\Components\Alarms</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Draw.cpp">
+      <Filter>Ice_Block_Engine\Components\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\GameObjects.cpp">
+      <Filter>Ice_Block_Engine\Components\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Inputable.cpp">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\InputableManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\KeyState.cpp">
+      <Filter>Ice_Block_Engine\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\ResourceManager.cpp">
+      <Filter>Ice_Block_Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Scene.cpp">
+      <Filter>Ice_Block_Engine\Scene/Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\SceneManager.cpp">
+      <Filter>Ice_Block_Engine\Scene/Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\DrawManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Terminable.cpp">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TerminableManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Dumpster.cpp">
+      <Filter>Ice_Block_Engine\Components\Terminator</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Updatable.cpp">
+      <Filter>Ice_Block_Engine\Components\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\UpdateManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\floor_plane.cpp">
+      <Filter>DemoFiles\TestItems\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\axis.cpp">
+      <Filter>DemoFiles\TestItems\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Game.cpp">
+      <Filter>Ice_Block_Engine\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\main.cpp">
+      <Filter>Ice_Block_Engine\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\testGO.cpp">
+      <Filter>DemoFiles\TestItems\TestGO</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\UserCamera.cpp">
+      <Filter>DemoFiles\TestItems\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\level1.cpp">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\level2.cpp">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\testGO2.cpp">
+      <Filter>DemoFiles\TestItems\TestGO2</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\TestingPair2.cpp">
+      <Filter>DemoFiles\TestItems\TestingPair2</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\testobject.cpp">
+      <Filter>DemoFiles\TestItems\testobject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TimeManager.cpp">
+      <Filter>Ice_Block_Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBlockContent\Ice_Block_Content.cpp">
+      <Filter>Ice_Block_Content</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\Alarmtest.cpp">
+      <Filter>DemoFiles\TestItems\AlarmTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Collidable.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\CollidableGroupBase.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\CollisionManager.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\Collidables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\BoundingSphereVolume.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\ColliderAABB.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\TankDemo.cpp">
+      <Filter>DemoFiles\TestItems\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\TankBase.cpp">
+      <Filter>DemoFiles\TestItems\TankItems</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\TankTurret.cpp">
+      <Filter>DemoFiles\TestItems\TankItems</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBlockMath.cpp">
+      <Filter>Ice_Block_Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TerrainModel.cpp">
+      <Filter>Ice_Block_Engine\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Visualizer.cpp">
+      <Filter>Ice_Block_Engine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\ColliderOBB.cpp">
+      <Filter>Ice_Block_Engine\Components\Collision\ColliderVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Timeable.cpp">
+      <Filter>Ice_Block_Engine\Components\TimeAble</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\TestingPair3.cpp">
+      <Filter>DemoFiles\TestItems\TestingPair3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

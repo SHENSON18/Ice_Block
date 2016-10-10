@@ -1,0 +1,180 @@
+Autodesk FBX SDK version 2014.2.1 Release (225309)
+
+
+File: Plane.fbx
+
+FBX file format version for this FBX SDK is 7.4.0
+FBX file format version for file 'Plane.fbx' is 7.4.0
+
+Animation Stack Information
+    Number of Animation Stacks: 1
+    Current Animation Stack: "Take 001"
+
+    Animation Stack 0
+         Name: "Take 001"
+         Description: ""
+         Import Name: "Take 001"
+         Import State: true
+
+
+
+---------
+Hierarchy
+---------
+
+pPlane1
+
+
+------------
+Node Content
+------------
+
+------>>>>>> dISPLAY 0  <<<<-----------------------------
+Mesh Name: pPlane1
+        Material 0
+            Name: "lambert1"
+            Ambient: 0.000000 (red), 0.000000 (green), 0.000000 (blue)
+            Diffuse: 1.000000 (red), 1.000000 (green), 1.000000 (blue)
+>>>>>>>>>>Keenan: color material
+            Emissive: 0.000000 (red), 0.000000 (green), 0.000000 (blue)
+            Opacity: 0.000000
+            Shading Model: Lambert
+
+
+k0:  Num control pts: 4 
+FBX_vert.size 4
+ 0: ----------
+       [0] v: -0.500000 -0.000000 0.500000
+       [0] n: 0.000000 1.000000 0.000000
+       --> FBX_V[i]: v:-0.500000 -0.000000 0.500000  n: 0.000000 1.000000 0.000000
+ 1: ----------
+       [1] v: 0.500000 -0.000000 0.500000
+       [1] n: 0.000000 1.000000 0.000000
+       --> FBX_V[i]: v:0.500000 -0.000000 0.500000  n: 0.000000 1.000000 0.000000
+ 2: ----------
+       [2] v: -0.500000 0.000000 -0.500000
+       [2] n: 0.000000 1.000000 0.000000
+       --> FBX_V[i]: v:-0.500000 0.000000 -0.500000  n: 0.000000 1.000000 0.000000
+ 3: ----------
+       [3] v: 0.500000 0.000000 -0.500000
+       [3] n: 0.000000 1.000000 0.000000
+       --> FBX_V[i]: v:0.500000 0.000000 -0.500000  n: 0.000000 1.000000 0.000000
+
+
+
+
+ FBX_VERTEX
+
+FBX_V[0]: v:-0.500000 -0.000000 0.500000  n: 0.000000 1.000000 0.000000
+FBX_V[1]: v:0.500000 -0.000000 0.500000  n: 0.000000 1.000000 0.000000
+FBX_V[2]: v:-0.500000 0.000000 -0.500000  n: 0.000000 1.000000 0.000000
+FBX_V[3]: v:0.500000 0.000000 -0.500000  n: 0.000000 1.000000 0.000000
+
+k1:  Num Polys: 2 
+poly[0]: --------------- 
+        index[0] v: 0.500000 -0.000000 0.500000
+        index[0] uv: 1.000000 0.000000 
+ FBX_fat: v: 0.500000 -0.000000 0.500000 s: 1.000000 0.000000 n:0.000000 1.000000 0.000000 
+        index[1] v: 0.500000 0.000000 -0.500000
+        index[1] uv: 1.000000 1.000000 
+ FBX_fat: v: 0.500000 0.000000 -0.500000 s: 1.000000 1.000000 n:0.000000 1.000000 0.000000 
+        index[2] v: -0.500000 -0.000000 0.500000
+        index[2] uv: 0.000000 0.000000 
+ FBX_fat: v: -0.500000 -0.000000 0.500000 s: 0.000000 0.000000 n:0.000000 1.000000 0.000000 
+FBX_tri: 0 1 2 
+poly[1]: --------------- 
+        index[0] v: -0.500000 -0.000000 0.500000
+        index[0] uv: 0.000000 0.000000 
+ FBX_fat: v: -0.500000 -0.000000 0.500000 s: 0.000000 0.000000 n:0.000000 1.000000 0.000000 
+        index[1] v: 0.500000 0.000000 -0.500000
+        index[1] uv: 1.000000 1.000000 
+ FBX_fat: v: 0.500000 0.000000 -0.500000 s: 1.000000 1.000000 n:0.000000 1.000000 0.000000 
+        index[2] v: -0.500000 0.000000 -0.500000
+        index[2] uv: 0.000000 1.000000 
+ FBX_fat: v: -0.500000 0.000000 -0.500000 s: 0.000000 1.000000 n:0.000000 1.000000 0.000000 
+FBX_tri: 3 4 5 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+FBX_VERT_FAT
+
+k FBX_fat[0]: textID: 0.050000 v: 0.500000 -0.000000 0.500000 s: 1.000000 0.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+k FBX_fat[1]: textID: 0.050000 v: 0.500000 0.000000 -0.500000 s: 1.000000 1.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+k FBX_fat[2]: textID: 0.050000 v: -0.500000 -0.000000 0.500000 s: 0.000000 0.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+k FBX_fat[3]: textID: 0.050000 v: -0.500000 -0.000000 0.500000 s: 0.000000 0.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+k FBX_fat[4]: textID: 0.050000 v: 0.500000 0.000000 -0.500000 s: 1.000000 1.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+k FBX_fat[5]: textID: 0.050000 v: -0.500000 0.000000 -0.500000 s: 0.000000 1.000000 n:0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000 
+
+
+
+FBX_TRILIST
+
+FBX_tri[0]: 0 1 2 
+FBX_tri[1]: 3 4 5 
+    Material Element 0: 
+           Mapping: All Same
+           ReferenceMode: Index to Direct
+           Indices: 0
+
+    Textures connected to Material 0
+    Textures for DiffuseColor
+        Texture 0
+            Name: "file1"
+            Type: File Texture
+            File Name: "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Assets\grid.tga"
+>>> texture name:C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Assets\grid.tga
+            Scale U: 1.000000
+            Scale V: 1.000000
+            Translation U: 0.000000
+            Translation V: 0.000000
+            Swap UV: false
+            Rotation U: 0.000000
+            Rotation V: 0.000000
+            Rotation W: 0.000000
+            Alpha Source: None
+            Cropping Left: 0.000000
+            Cropping Top: 0.000000
+            Cropping Right: 0.000000
+            Cropping Bottom: 0.000000
+            Mapping Type: UV
+            Alpha: 1.000000
+            Material Use: Model Material
+            Texture Use: Standard
+
+    Property Count: 1
+        Property 0
+            Display Name: currentUVSet
+            Internal Name: currentUVSet
+            Type: KString
+            Is Animatable: false
+            Default Value: UNIDENTIFIED
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+    Geometric Transformations
+        Translation: 0.000000 0.000000 0.000000
+        Rotation:    0.000000 0.000000 0.000000
+        Scaling:     1.000000 1.000000 1.000000
+Program Success!
+
+output------------------------------------
+
+name:Plane.fbx
+Num Textures: 1 
+{0} grid.tga  grid.tga
+
+Num Verts: 6 
+{0} textID:0.050000 v:0.500000 -0.000000 0.500000  uv: 1.000000 0.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+{1} textID:0.050000 v:0.500000 0.000000 -0.500000  uv: 1.000000 1.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+{2} textID:0.050000 v:-0.500000 -0.000000 0.500000  uv: 0.000000 0.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+{3} textID:0.050000 v:-0.500000 -0.000000 0.500000  uv: 0.000000 0.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+{4} textID:0.050000 v:0.500000 0.000000 -0.500000  uv: 1.000000 1.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+{5} textID:0.050000 v:-0.500000 0.000000 -0.500000  uv: 0.000000 1.000000  n: 0.000000 1.000000 0.000000 c:1.000000 1.000000 1.000000
+
+Num Tris: 2 
+{0} 0 1 2
+{1} 3 4 5

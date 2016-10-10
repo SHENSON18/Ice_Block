@@ -1,0 +1,66 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	GameEngine\Dumpster.cpp
+//
+// summary:	Implements the dumpster class
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "Dumpster.h"
+#include "Terminable.h"
+#include "SceneManager.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Destructor. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Dumpster::~Dumpster(void)
+{
+	printf("Deleting %i terminables.\n", ActiveTerminable.size());
+	for(std::list<Terminable*>::iterator it = ActiveTerminable.begin(); it != ActiveTerminable.end(); ++it)
+	{
+		delete (*it);
+	}
+	ActiveTerminable.clear();
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Registers the Object to Dumpster. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="T">	[in,out] If non-null, the Terminable* to process. </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Dumpster::Register(Terminable* T)
+{
+	ActiveTerminable.push_front(T);
+	printf("Object entered into the dumpster: % \n", ActiveTerminable.size());
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	DeRegister the GameObject from Active Terminables. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="T">	[in,out] The GameObject is DeRegister from the TerminableManager (Game Objects inherit Terminable).. </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Dumpster::DeRegister(Terminable* T)
+{
+	ActiveTerminable.remove(T);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	This is called when a object is managed by a User factory. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="T">	[in,out]  The GameObject is DeRegister from the Dumpster (Game Objects inherit Terminable). </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Dumpster::NowUnused(Terminable* T)
+{
+	SceneManager::getCurrentScene()->GetDumpster()->DeRegister(T);
+}
+

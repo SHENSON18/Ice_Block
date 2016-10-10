@@ -1,0 +1,81 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include "Azul.h"
+#include "SceneManager.h"
+#include "Scene.h"
+#include "GameObjects.h"
+#include "Draw.h"
+#include "TimeManager.h"
+#include "AlarmManager.h"
+#include "Alarmtest.h"
+#include "ResourceManager.h"
+#include "level1.h"
+#include "level2.h"
+#include "Visualizer.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	The Main Game Loop. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Game : public Engine
+{
+
+public:
+	Game( const char * const windowName, int widthScreen, int heightScreen );
+
+	static int WindowHeight(){ return ptrGame->windowHeight; };
+	static int WindowWidth(){return ptrGame->windowWidth;};
+
+private:
+	static Game *ptrGame;
+
+	int windowHeight;
+	int windowWidth;
+	void Initialize() override;
+	void LoadContent() override;
+	void Update() override;
+	void Draw() override;
+	void UnLoadContent() override;
+
+//  User defined Content
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Initializes the content which the User can define. </summary>
+	///
+	/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	virtual void InitializeContent();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Loads game content which the User can define. </summary>
+	///
+	/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	virtual void LoadGameContent();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Unload game content which the User can define. </summary>
+	///
+	/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	virtual void UnloadGameContent();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// <summary>	Terminate content which the User can define. </summary>
+	///
+	/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	virtual void TerminateContent();
+	
+};
+
+
+
+#endif 

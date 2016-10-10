@@ -1,0 +1,88 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	GameEngine\InputableManager.cpp
+//
+// summary:	Implements the inputable manager class
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "InputableManager.h"
+
+std::map<AZUL_KEY, KeyState > InputableManager::ActiveKeys;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	This Manager is created during Scene creation  The Manager keeps track of all your Inputable GameObjects that
+/// 			you have Registered to the current Manager. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+InputableManager::InputableManager()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Destructor. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+InputableManager::~InputableManager()
+{
+	ActiveKeys.clear();
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Registers this object. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="object">	[in,out] Place the GameObject you wish to Register to InputableManager (Game Objects inherit Input). </param>
+/// <param name="state"> 	The state you wish to Register to.  Ex. KeyPressed/KeyReleased </param>
+/// <param name="K">	 	The AZUL_KEY to process. </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void InputableManager::Register(Inputable* object, KeyboardEnum::KeyState state, AZUL_KEY K)
+{
+	ActiveKeys[K] = KeyState(K,state,object);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	De register. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="object">	[in,out] Place the GameObject you wish to Register to InputableManager (Game Objects inherit Input). </param>
+/// <param name="state"> 	The state you wish to Register to.  Ex. KeyPressed/KeyReleased  </param>
+/// <param name="K">	 	The AZUL_KEY to process. </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void InputableManager::DeRegister(Inputable* object, KeyboardEnum::KeyState state, AZUL_KEY K)
+{
+	object;
+	state;
+	ActiveKeys.erase(ActiveKeys.find(K));
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Updates the Key State to the KeyBoardEnum. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void InputableManager::UpdateAll()
+{
+	for(iter = ActiveKeys.begin(); iter != ActiveKeys.end(); iter++)
+	{
+		(iter)->second.UpdateKeys(iter->first);
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Cleanup's this object. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void InputableManager::Cleanup()
+{
+	ActiveKeys.clear();
+}

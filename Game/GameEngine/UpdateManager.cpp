@@ -1,0 +1,69 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	GameEngine\UpdateManager.cpp
+//
+// summary:	Implements the update manager class
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "UpdateManager.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	DeRegister. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="pointer">	[in,out] Place the GameObject you wish to DeRegister from UpdateManager (Game Objects inherit Update).  </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void UpdateManager::DeRegister(Updatable* pointer)
+{
+	URegistery.remove(pointer);
+	//printf("Update Registry has removed a Updatable\n"); 
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Registers this object. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+///
+/// <param name="pointer">	[in,out] Place the GameObject you wish to Register to UpdateManager (Game Objects inherit Update).. </param>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void UpdateManager::Register(Updatable* pointer)
+{
+	if (std::find(std::begin(URegistery), std::end(URegistery), pointer) == std::end(URegistery))  //check if item is already in list
+	{
+		URegistery.push_back(pointer);
+	}
+	//printf("Update Registry has registered a Updatable\n"); 
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Updates all registerd GameObjects. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void UpdateManager::UpdateAll()
+{
+	//for(iter = this->URegistery.begin();iter!=URegistery.end(); iter++)
+	iter = URegistery.begin();
+	while (iter != URegistery.end())
+	{
+		//printf("Update Manager is Updating\n");
+		(*iter)->Update();
+		iter++;
+	}
+	//printf("Update Manager is done update.....\n");
+
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Cleanups this object. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void UpdateManager::Cleanup()
+{
+	URegistery.clear();
+}

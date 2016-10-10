@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	GameEngine\CollisionManager.cpp
+//
+// summary:	Implements the collision manager class
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "CollisionManager.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Default constructor. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+CollisionManager::CollisionManager()
+{
+	colgroupCol = std::set<CollidableGroupBase*>();
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Destructor. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+CollisionManager::~CollisionManager()
+{
+	//CHECK THIS LATER FOR WORK THAT NEEDS TO BE DONE ON IT
+	//for(CollisionProcessorCollection::iterator it = colProcessorCol.begin(); it != colProcessorCol.end(); ++it)
+	//{
+		//(*it)->CleanUp();   // CHECK IF THIS IS NEEDED FOR CLEANUP LATER.
+		colProcessorCol.clear();
+	//}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Process the collisions and calls CallAllTestFunctions(). </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void CollisionManager::ProcessCollisions()
+{
+	for(std::set<CollidableGroupBase*>::iterator it = colgroupCol.begin();it!=colgroupCol.end(); it++)
+	{
+		(*it)->UpdateVolData();
+	}
+	
+	//printf("I am processing data\n");   
+	for(CollisionProcessorCollection::iterator it = this->colProcessorCol.begin();it!=colProcessorCol.end(); it++)
+	{
+		(*it)->CollisionTest();
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// <summary>	Cleanups this object. </summary>
+///
+/// <remarks>	Theonlyhunter, 3/13/2015. </remarks>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void CollisionManager::Cleanup()
+{
+	//this will need to be adjusted for colProcess now
+	//std::set<CollidableGroupBase*>::iterator it = colGroupCollection.begin();
+	//while (it != colGroupCollection.end())
+	//{
+		//(*it)->CleanUp();
+		//it++;
+	//}
+	//colGroupCollection.clear();
+}

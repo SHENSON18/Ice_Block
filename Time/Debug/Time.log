@@ -1,0 +1,19 @@
+﻿Build started 8/13/2015 11:19:17 AM.
+     1>Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\Time.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\.\Time\include /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /GF- /Gm- /RTC1 /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\lib\TimeDebug.pdb" /Gd /TP /analyze- /errorReport:prompt src\StopWatch.cpp src\Time.cpp src\Timer.cpp src\Timer_win32.cpp
+         StopWatch.cpp
+         Time.cpp
+         Timer.cpp
+         Timer_win32.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\lib\TimeDebug.lib" /NOLOGO Debug\StopWatch.obj
+         Debug\Time.obj
+         Debug\Timer.obj
+         Debug\Timer_win32.obj
+         Time.vcxproj -> C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\lib\TimeDebug.lib
+     1>Done Building Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\Time.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.39

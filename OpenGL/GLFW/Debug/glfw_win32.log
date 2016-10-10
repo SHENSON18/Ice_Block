@@ -1,0 +1,45 @@
+﻿Build started 8/13/2015 11:19:17 AM.
+     1>Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\glfw_win32.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\.\GLFW\include /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _GLFW_USE_OPENGL /D _GLFW_WIN32 /D _MBCS /GF- /Gm- /RTC1 /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\lib\GLFW3Debug.pdb" /Gd /TC /analyze- /errorReport:prompt src\clipboard.c src\context.c src\gamma.c src\init.c src\input.c src\joystick.c src\monitor.c src\time.c src\wgl_context.c src\win32_clipboard.c src\win32_gamma.c src\win32_init.c src\win32_joystick.c src\win32_monitor.c src\win32_time.c src\win32_window.c src\window.c
+         clipboard.c
+         context.c
+         gamma.c
+         init.c
+         input.c
+         joystick.c
+         monitor.c
+         time.c
+         wgl_context.c
+         win32_clipboard.c
+         win32_gamma.c
+         win32_init.c
+         win32_joystick.c
+         win32_monitor.c
+         win32_time.c
+         win32_window.c
+         window.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\lib\GLFW3Debug.lib" /NOLOGO Debug\clipboard.obj
+         Debug\context.obj
+         Debug\gamma.obj
+         Debug\init.obj
+         Debug\input.obj
+         Debug\joystick.obj
+         Debug\monitor.obj
+         Debug\time.obj
+         Debug\wgl_context.obj
+         Debug\win32_clipboard.obj
+         Debug\win32_gamma.obj
+         Debug\win32_init.obj
+         Debug\win32_joystick.obj
+         Debug\win32_monitor.obj
+         Debug\win32_time.obj
+         Debug\win32_window.obj
+         Debug\window.obj
+         glfw_win32.vcxproj -> C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\lib\GLFW3Debug.lib
+     1>Done Building Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\glfw_win32.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.54

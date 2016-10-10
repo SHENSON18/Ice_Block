@@ -1,0 +1,24 @@
+﻿Build started 8/13/2015 11:19:17 AM.
+     1>Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\gltools.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I\gltools /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /GF- /Gm- /RTC1 /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\lib\gltoolsDebug.pdb" /Gd /TP /analyze- /errorReport:prompt src\GLBatch.cpp src\GLShaderManager.cpp src\GLTools.cpp src\GLTriangleBatch.cpp src\math3d.cpp
+         GLBatch.cpp
+         GLShaderManager.cpp
+         GLTools.cpp
+         GLTriangleBatch.cpp
+         math3d.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I\gltools /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /GF- /Gm- /RTC1 /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\lib\gltoolsDebug.pdb" /Gd /TC /analyze- /errorReport:prompt src\glew.c
+         glew.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\lib\gltoolsDebug.lib" /NOLOGO /NODEFAULTLIB Debug\GLBatch.obj
+         Debug\glew.obj
+         Debug\GLShaderManager.obj
+         Debug\GLTools.obj
+         Debug\GLTriangleBatch.obj
+         Debug\math3d.obj
+         gltools.vcxproj -> C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\lib\gltoolsDebug.lib
+     1>Done Building Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\gltools.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.06

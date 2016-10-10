@@ -1,0 +1,13 @@
+﻿Build started 8/13/2015 11:19:21 AM.
+     1>Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\File.vcxproj" on node 6 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\.\File\include /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /GF- /Gm- /RTC1 /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\lib\FileDebug.pdb" /Gd /TP /analyze- /errorReport:prompt src\File.cpp
+         File.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\lib\FileDebug.lib" /NOLOGO Debug\File.obj
+         File.vcxproj -> C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\lib\FileDebug.lib
+     1>Done Building Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\File.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41

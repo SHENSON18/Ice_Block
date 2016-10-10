@@ -1,0 +1,62 @@
+﻿Build started 8/13/2015 11:23:07 AM.
+     1>Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Azul\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Math\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\File\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Time\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLTools\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\OpenGL\GLFW\include /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\\Game\UserFiles /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\\Game\GameEngine /IC:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\\Game\IceBlockContent /Zi /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D "MONKEY=\"FlyingCamera\"" /D _MBCS /GF- /Gm- /EHsc /RTC1 /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Debug\FlyingCameraDebug.pdb" /Gd /TP /analyze- /errorReport:prompt UserFiles\LoadAllResources.cpp
+         LoadAllResources.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Debug\FlyingCameraDebug.exe" /INCREMENTAL /NOLOGO OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:"%libcmt.lib" /NODEFAULTLIB:msvcrt.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Debug\FlyingCameraDebug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Debug\FlyingCameraDebug.lib" /MACHINE:X86 /SAFESEH Debug\Alarmable.obj
+         Debug\AlarmManager.obj
+         Debug\AlarmMarker.obj
+         Debug\BoundingSphereVolume.obj
+         Debug\Collidable.obj
+         Debug\CollidableGroupBase.obj
+         Debug\ColliderAABB.obj
+         Debug\ColliderOBB.obj
+         Debug\CollisionManager.obj
+         Debug\Draw.obj
+         Debug\DrawManager.obj
+         Debug\Dumpster.obj
+         Debug\Game.obj
+         Debug\GameObjects.obj
+         Debug\Inputable.obj
+         Debug\InputableManager.obj
+         Debug\KeyState.obj
+         Debug\main.obj
+         Debug\ResourceManager.obj
+         Debug\Scene.obj
+         Debug\SceneManager.obj
+         Debug\Terminable.obj
+         Debug\TerminableManager.obj
+         Debug\TerrainModel.obj
+         Debug\Timeable.obj
+         Debug\TimeManager.obj
+         Debug\Updatable.obj
+         Debug\UpdateManager.obj
+         Debug\Visualizer.obj
+         Debug\Ice_Block_Content.obj
+         Debug\IceBlockMath.obj
+         Debug\Alarmtest.obj
+         Debug\axis.obj
+         Debug\floor_plane.obj
+         Debug\level1.obj
+         Debug\level2.obj
+         Debug\LoadAllResources.obj
+         Debug\TankBase.obj
+         Debug\TankDemo.obj
+         Debug\TankTurret.obj
+         Debug\testGO.obj
+         Debug\testGO2.obj
+         Debug\TestingPair2.obj
+         Debug\TestingPair3.obj
+         Debug\testobject.obj
+         Debug\UserCamera.obj
+         ..\Azul\lib\AzulDebug.lib
+         ..\File\lib\FileDebug.lib
+         ..\Math\lib\MathDebug.lib
+         ..\Time\lib\TimeDebug.lib
+         Game.vcxproj -> C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Debug\FlyingCameraDebug.exe
+     1>Done Building Project "C:\Users\Theonlyhunter\Desktop\Ice_Block\Ice_Block\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.53

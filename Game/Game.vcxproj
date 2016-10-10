@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0BED050-044F-418F-ADC9-A391DE636599}</ProjectGuid>
+    <RootNamespace>Pyramid</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionName)Debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionName)Release</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include;$(SolutionDir)\Game\UserFiles;$(SolutionDir)\Game\GameEngine;$(SolutionDir)\Game\IceBlockContent</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <StringPooling>false</StringPooling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessToFile>false</PreprocessToFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include</AdditionalIncludeDirectories>
+      <StringPooling>false</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Azul\include\Azul.h" />
+    <ClInclude Include="..\File\include\File.h" />
+    <ClInclude Include="..\Math\include\MathApp.h" />
+    <ClInclude Include="..\Math\include\MathEngine.h" />
+    <ClInclude Include="..\Time\include\Time.h" />
+    <ClInclude Include="..\Time\include\Timer.h" />
+    <ClInclude Include="GameEngine\Alarmable.h" />
+    <ClInclude Include="GameEngine\AlarmManager.h" />
+    <ClInclude Include="GameEngine\AlarmMarker.h" />
+    <ClInclude Include="GameEngine\BoundingSphereVolume.h" />
+    <ClInclude Include="GameEngine\Collidable.h" />
+    <ClInclude Include="GameEngine\CollidableGroup.h" />
+    <ClInclude Include="GameEngine\CollidableGroupBase.h" />
+    <ClInclude Include="GameEngine\ColliderAABB.h" />
+    <ClInclude Include="GameEngine\ColliderOBB.h" />
+    <ClInclude Include="GameEngine\ColliderVolume.h" />
+    <ClInclude Include="GameEngine\ColliderVolumeEnums.h" />
+    <ClInclude Include="GameEngine\CollisionManager.h" />
+    <ClInclude Include="GameEngine\CollisionPairProcessor.h" />
+    <ClInclude Include="GameEngine\CollisionProcessorBase.h" />
+    <ClInclude Include="GameEngine\CollisionSingleProcessor.h" />
+    <ClInclude Include="GameEngine\Doxygen_Document.h" />
+    <ClInclude Include="GameEngine\Draw.h" />
+    <ClInclude Include="GameEngine\DrawManager.h" />
+    <ClInclude Include="GameEngine\Dumpster.h" />
+    <ClInclude Include="GameEngine\Game.h" />
+    <ClInclude Include="GameEngine\GameObjects.h" />
+    <ClInclude Include="GameEngine\Inputable.h" />
+    <ClInclude Include="GameEngine\InputableManager.h" />
+    <ClInclude Include="GameEngine\KeyboardEnum.h" />
+    <ClInclude Include="GameEngine\KeyState.h" />
+    <ClInclude Include="GameEngine\IceBlockMath.h" />
+    <ClInclude Include="GameEngine\ResourceManager.h" />
+    <ClInclude Include="GameEngine\Scene.h" />
+    <ClInclude Include="GameEngine\SceneManager.h" />
+    <ClInclude Include="GameEngine\Terminable.h" />
+    <ClInclude Include="GameEngine\TerminableManager.h" />
+    <ClInclude Include="GameEngine\TerrainModel.h" />
+    <ClInclude Include="GameEngine\Timeable.h" />
+    <ClInclude Include="GameEngine\TimeManager.h" />
+    <ClInclude Include="GameEngine\Updatable.h" />
+    <ClInclude Include="GameEngine\UpdateManager.h" />
+    <ClInclude Include="GameEngine\Visualizer.h" />
+    <ClInclude Include="UserFiles\Alarmtest.h" />
+    <ClInclude Include="UserFiles\axis.h" />
+    <ClInclude Include="UserFiles\floor_plane.h" />
+    <ClInclude Include="UserFiles\level1.h" />
+    <ClInclude Include="UserFiles\level2.h" />
+    <ClInclude Include="UserFiles\TankBase.h" />
+    <ClInclude Include="UserFiles\TankDemo.h" />
+    <ClInclude Include="UserFiles\TankTurret.h" />
+    <ClInclude Include="UserFiles\testGO.h" />
+    <ClInclude Include="UserFiles\testGO2.h" />
+    <ClInclude Include="UserFiles\TestingPair2.h" />
+    <ClInclude Include="UserFiles\TestingPair3.h" />
+    <ClInclude Include="UserFiles\testobject.h" />
+    <ClInclude Include="UserFiles\UserCamera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine\Alarmable.cpp" />
+    <ClCompile Include="GameEngine\AlarmManager.cpp" />
+    <ClCompile Include="GameEngine\AlarmMarker.cpp" />
+    <ClCompile Include="GameEngine\BoundingSphereVolume.cpp" />
+    <ClCompile Include="GameEngine\Collidable.cpp" />
+    <ClCompile Include="GameEngine\CollidableGroupBase.cpp" />
+    <ClCompile Include="GameEngine\ColliderAABB.cpp" />
+    <ClCompile Include="GameEngine\ColliderOBB.cpp" />
+    <ClCompile Include="GameEngine\CollisionManager.cpp" />
+    <ClCompile Include="GameEngine\Draw.cpp" />
+    <ClCompile Include="GameEngine\DrawManager.cpp" />
+    <ClCompile Include="GameEngine\Dumpster.cpp" />
+    <ClCompile Include="GameEngine\Game.cpp" />
+    <ClCompile Include="GameEngine\GameObjects.cpp" />
+    <ClCompile Include="GameEngine\Inputable.cpp" />
+    <ClCompile Include="GameEngine\InputableManager.cpp" />
+    <ClCompile Include="GameEngine\KeyState.cpp" />
+    <ClCompile Include="GameEngine\main.cpp" />
+    <ClCompile Include="GameEngine\ResourceManager.cpp" />
+    <ClCompile Include="GameEngine\Scene.cpp" />
+    <ClCompile Include="GameEngine\SceneManager.cpp" />
+    <ClCompile Include="GameEngine\Terminable.cpp" />
+    <ClCompile Include="GameEngine\TerminableManager.cpp" />
+    <ClCompile Include="GameEngine\TerrainModel.cpp" />
+    <ClCompile Include="GameEngine\Timeable.cpp" />
+    <ClCompile Include="GameEngine\TimeManager.cpp" />
+    <ClCompile Include="GameEngine\Updatable.cpp" />
+    <ClCompile Include="GameEngine\UpdateManager.cpp" />
+    <ClCompile Include="GameEngine\Visualizer.cpp" />
+    <ClCompile Include="IceBlockContent\Ice_Block_Content.cpp" />
+    <ClCompile Include="IceBlockMath.cpp" />
+    <ClCompile Include="UserFiles\Alarmtest.cpp" />
+    <ClCompile Include="UserFiles\axis.cpp" />
+    <ClCompile Include="UserFiles\floor_plane.cpp" />
+    <ClCompile Include="UserFiles\level1.cpp" />
+    <ClCompile Include="UserFiles\level2.cpp" />
+    <ClCompile Include="UserFiles\LoadAllResources.cpp" />
+    <ClCompile Include="UserFiles\TankBase.cpp" />
+    <ClCompile Include="UserFiles\TankDemo.cpp" />
+    <ClCompile Include="UserFiles\TankTurret.cpp" />
+    <ClCompile Include="UserFiles\testGO.cpp" />
+    <ClCompile Include="UserFiles\testGO2.cpp" />
+    <ClCompile Include="UserFiles\TestingPair2.cpp" />
+    <ClCompile Include="UserFiles\TestingPair3.cpp" />
+    <ClCompile Include="UserFiles\testobject.cpp" />
+    <ClCompile Include="UserFiles\UserCamera.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
